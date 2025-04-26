@@ -1,0 +1,191 @@
+.navigation{
+    display: flex;
+    justify-content:space-between;
+    background-color: rgba(0,0,0,0.6);
+    padding:29px
+}
+.navigation div{
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation div{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-family: Roboto;
+}
+a{
+    color: white;
+    padding: 11px;
+    text-decoration:none;
+}
+header{
+    background-image: url(images/banner.jpg);
+    background-color:rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-size: cover;
+    height: 590px;
+}
+.text{
+    padding-left: 200px;
+    padding-top: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+#C1{font-size: medium;
+    font-weight: 500;
+    padding-top: 10px;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    text-align: center;
+    column-gap: 80px;
+    padding-top: 500px;
+
+}
+#grd1{ 
+    font-weight: 800;
+}
+.ex{
+    border: 1px solid black;
+}
+.flex{
+    display: flex;
+    padding-top: 200px;
+    column-gap: 20px;
+    padding-left: 85px;
+    padding-right: 125px;
+}
+.bluearea{
+    background-color: rgb(10, 10, 48);
+    height: 400px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    
+}
+#commit{
+    padding-left: 100px;
+    padding-bottom: 111px;
+    color: aliceblue;
+    
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: italic;
+}
+detailingtext h2{
+    text-transform: uppercase;
+    color: #140748;
+    font-size: 40px;
+    font-family: "Bebas Neue", Sans-serif;
+}
+.detailingtext{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    padding-left: 835px;
+    padding-top: 125px;
+}
+.listedtext{
+    text-align:start;
+}
+.detailingtext p{
+    font-size: 16px;
+    font-family: "Roboto", Sans-serif;
+}
+    #contacttext{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        background-color: #140748;
+        padding: 15px 25px 15px 25px;
+    }
+    #contactdiv{
+        padding-top: 30px;
+    }
+.bg3text{
+    text-align: left;
+    padding-top: 430px;
+    margin-left: 150px;
+    margin-left: 150px;
+}
+.bg3text h3{
+    color: #140748;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.bg3text h6{
+    color: #140748;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.banner3text3{
+    padding-left: 20px;
+}
+.bg4text{
+    padding-top: 180px;
+    padding-left: 100px;
+    align-content: center;
+    align-items: center;
+}
+.bg4text h3{
+    color: #140748;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.bg4text h6{
+    color: #140748;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.banner4text4{
+    padding-left: 20px;
+}
+#phase5text{
+    text-align: center;
+    padding-top: 200px;
+}
+#phase5text h2{
+    color: #140748;
+    text-transform: uppercase;
+}
+.imagegallery2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    padding-left: 30px;
+}
+.shadearea{
+    background-color: rgb(195, 195, 241);
+    height: 800px;
+    margin-top: -775px;
+    margin-bottom: -250px;
+    
+}
+.imagegallery2{
+    display: flex;
+    column-gap: 10px;
+    padding-left: 60px;
+    padding-top: 50px;
+}
+.imagegallery2 h1{
+    
+    font-size: 20;
+    padding: 20px;
+    
+}
+.imagegallery2 h2{
+    
+    font-size: 20;
+    padding: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.bg5{
+    background-image: url("../images/grp.jpeg");
+    height:300px;
+}
